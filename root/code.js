@@ -3,6 +3,6 @@
   if (!$ || !$.ajax) return;
   console.log('ready', window.location.href);
   $('.urlredirect').on('click', () => {
-    window.open('https://community.fandom.com/wiki/User:Crazybloy2');
+    window.location.assign('https://community.fandom.com/wiki/User:Crazybloy2');
   });
 })();
